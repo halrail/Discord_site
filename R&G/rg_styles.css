@@ -32,3 +32,17 @@ footer {
     padding: 20px;
     font-size: 12px;
 }
+
+/* 通常のリンクのスタイル */
+a {
+    color: inherit; /* 親要素の文字色を引き継ぐ */
+    text-decoration: none; /* 下線を消す */
+}
+
+a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示（好みで変更） */
+}
+
+.inquiry {
+    color: aqua;
+}
